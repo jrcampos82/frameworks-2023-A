@@ -17,7 +17,9 @@
 ------ PARA REMOVER USUÁRIO ANTERIOR ------ 
 git config --system --unset credential.helper
 
-#---- ANGULAR 
-ng new nome-projeto (criar um projeto)
+#---- ANGULAR  (DENTRO DA PASTA DO PROJETO)
+1. ng new nome-projeto (criar um projeto)
 
-ng serve -o (rodar e abrir o projeto - precisa estar dentro da pasta do projeto)
+2. ng serve -o (rodar e abrir o projeto - precisa estar dentro da pasta do projeto)
+
+3. ng g c component/<nome-do-componente> --skip-tests (Criar um novo componente)
