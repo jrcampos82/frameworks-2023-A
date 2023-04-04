@@ -17,6 +17,11 @@
 ------ PARA REMOVER USUÁRIO ANTERIOR ------ 
 git config --system --unset credential.helper
 
+
+git config --global user.name "beto"
+git config --global user.email "emaildogit@"
+
+
 #---- ANGULAR  (DENTRO DA PASTA DO PROJETO)
 1. ng new nome-projeto (criar um projeto)
 
