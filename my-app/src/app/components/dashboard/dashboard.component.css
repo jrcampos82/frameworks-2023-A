@@ -151,6 +151,18 @@ h5 {
   margin-top: 30px;
 }
 
+.content .adm .team .detail-at .member {
+  display: flex;
+  align-items: center;
+  background: #f8fafd;
+}
+
+.content .adm .team .detail-at .member img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
 .content .adm .team .box {
   display: grid;
   background: #f8fafd;
