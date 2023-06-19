@@ -53,7 +53,7 @@
       <div class="team">
         <div class="title">
           <div class="ball">
-            <i class="bx bx-plus"></i>
+            <a routerLink="/task"><i class="bx bx-plus"></i></a>
           </div>
 
           <span>Membros do Time</span>
@@ -121,16 +121,43 @@
               <h5 class="data">30 de maio 2023</h5>
             </div>
           </div>
+          <div class="member">
+            <img src="/assets/avatar.png" alt="" />
+            <div class="info-member">
+              <h4>Fulano de Tal</h4>
+              <h5>Professor</h5>
+              <h5 class="data">30 de maio 2023</h5>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/assets/avatar.png" alt="" />
+            <div class="info-member">
+              <h4>Fulano de Tal</h4>
+              <h5>Professor</h5>
+              <h5 class="data">30 de maio 2023</h5>
+            </div>
+          </div>
+          <div class="member">
+            <img src="/assets/avatar.png" alt="" />
+            <div class="info-member">
+              <h4>Fulano de Tal</h4>
+              <h5>Professor</h5>
+              <h5 class="data">30 de maio 2023</h5>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="task">
-        <div class="title">
+        <div class="title" (click)="addTask()">
           <div class="ball">
             <i class="bx bx-plus"></i>
           </div>
 
           <span>Adicionar Nova Tarefa</span>
         </div>
+
+        <div class="tasks"></div>
       </div>
     </div>
   </div>

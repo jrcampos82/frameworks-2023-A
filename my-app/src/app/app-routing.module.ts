@@ -5,11 +5,13 @@ import { LoginComponent } from './components/login/login.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { GridComponent } from './components/grid/grid.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { TaskComponent } from './components/task/task.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'hero', component: HeroComponent },
   { path: 'grid', component: GridComponent },
+  { path: 'task', component: TaskComponent },
   { path: 'dashboard', component: DashboardComponent },
 
   { path: '', redirectTo: '/login', pathMatch: 'full' },

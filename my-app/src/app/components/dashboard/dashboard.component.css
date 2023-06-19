@@ -151,16 +151,29 @@ h5 {
   margin-top: 30px;
 }
 
+.content .adm .team .detail-at {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 10px;
+}
+
 .content .adm .team .detail-at .member {
   display: flex;
   align-items: center;
   background: #f8fafd;
+  border-radius: 8px;
+  padding: 15px;
 }
 
 .content .adm .team .detail-at .member img {
   width: 30px;
   height: 30px;
   margin-right: 15px;
+}
+
+.content .adm .team .detail-at .member .data {
+  margin-top: 10px;
 }
 
 .content .adm .team .box {
@@ -185,11 +198,12 @@ h5 {
   margin-right: 15px;
 }
 
-.content .adm .task {
-  background: #deffe8;
+.content .adm .task .tasks {
+  background: #f7fbfd;
+  height: 100%;
 }
 
-.content .adm .team .title {
+.content .adm .title {
   background: #e5f7f0;
   display: flex;
   align-items: center;
@@ -197,12 +211,12 @@ h5 {
   border-radius: 5px;
 }
 
-.content .adm .team .title span {
+.content .adm .title span {
   font-size: 18px;
   font-weight: 600;
 }
 
-.content .adm .team .title .ball {
+.content .adm .title .ball {
   background: #43af74;
   border-radius: 50%;
   width: 30px;
@@ -213,7 +227,7 @@ h5 {
   margin: 0 15px 0 25px;
 }
 
-.content .adm .team .title .ball i {
+.content .adm .title .ball i {
   color: #fff;
   font-size: 22px;
 }

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  background: #f0edfe;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.container .form-group {
+  width: 700px;
+  height: 500px;
+  background: #92b2fd;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 30px 3px #23317d;
+  animation: fade-in 1s linear;
+}
+
+.container .form-group label {
+  font-size: 18px;
+}
+
+.container .form-group input {
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px;
+  border: 0.9px solid blue;
+  font-size: 16px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background: rgb(51, 69, 170);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.button button:hover {
+  filter: brightness(130%);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  20% {
+    opacity: 0.3;
+    transform: translateY(-30px);
+  }
+  40% {
+    opacity: 0.6;
+    transform: translateY(30px);
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

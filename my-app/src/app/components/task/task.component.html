@@ -1,0 +1,59 @@
+<div class="container">
+  <form action="#">
+    <div class="form-group">
+      <label for="txtNome">Task</label>
+
+      <input
+        type="text"
+        name="txtNome"
+        id="txtNome"
+        placeholder="Digite o nome da tarefa"
+        [formControl]="task"
+      />
+
+      <label for="txtDesc">Descrição</label>
+      <input
+        type="text"
+        name="txtDesc"
+        id="txtDesc"
+        placeholder="Digite a descrição da tarefa"
+        [formControl]="descricao"
+      />
+
+      <label for="txtResp">Responsável</label>
+      <input
+        type="text"
+        name="txtResp"
+        id="txtResp"
+        placeholder="Digite o responsável da tarefa"
+        [formControl]="responsavel"
+      />
+
+      <label for="txtInicio">Data Início</label>
+      <input
+        type="date"
+        name="txtInicio"
+        id="txtInicio"
+        [formControl]="dt_inicio"
+        useValueAsLocalDate
+      />
+
+      <label for="txtFim">Data Término</label>
+      <input
+        type="date"
+        name="txtFim"
+        id="txtFim"
+        [formControl]="dt_fim"
+        useValueAsLocalDate
+      />
+
+      <div></div>
+
+      <div class="button">
+        <button>Cancelar</button>
+        <button (click)="addTask()">Cadastrar</button>
+      </div>
+    </div>
+  </form>
+</div>
+b
