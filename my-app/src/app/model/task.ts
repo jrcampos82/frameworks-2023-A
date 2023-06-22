@@ -2,13 +2,14 @@ export class Task {
   name: string;
   description: string;
   responsavel: string;
-  startDate: number;
-  endDate: number;
+  startDate: Date;
+  endDate: Date;
+
   constructor() {
     this.name = '';
     this.description = '';
     this.responsavel = '';
-    this.startDate = 0;
-    this.endDate = 0;
+    this.startDate = new Date();
+    this.endDate = new Date();
   }
 }
